@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#calendar {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#calendar div {
+    flex: 1 0 14%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+#data-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#data-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+#data-list button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#data-list button:hover {
+    background-color: #c82333;
+}
