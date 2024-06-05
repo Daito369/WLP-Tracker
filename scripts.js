@@ -86,29 +86,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ]
         },
-       
-            options: {
-                scales: {
-                    x: {
-                        type: 'time',
-                        time: {
-                            unit: 'day'
-                        },
-                        title: {
-                            display: true,
-                            text: '日付'
-                        }
+        options: {
+            scales: {
+                x: {
+                    type: 'time',
+                    time: {
+                        unit: 'day'
                     },
-                    y: {
-                        title: {
-                            display: true,
-                            text: '数値'
-                        }
+                    title: {
+                        display: true,
+                        text: '日付'
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: '数値'
                     }
                 }
             }
-        });
-    };
+        }
+    });
 
     // チャートの更新
     const updateChart = (date, weight, bodyFat) => {
